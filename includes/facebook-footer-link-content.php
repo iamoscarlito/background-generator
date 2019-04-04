@@ -4,7 +4,7 @@ function ffl_add_footer($content){ // the $content is the entire article of the 
 
 	$footer_output = '<hr>';
 	$footer_output .= '<div class="footer_content">';
-	$footer_output .= '<span class="dashicons dashicons-facebook"></span>Find me on <a target="_blank" href="http://www.facebook.com/iamoscarlito">Facebook</a>';
+	$footer_output .= '<span class="dashicons dashicons-facebook"></span>Find me on <a target="_blank" href="http://www.facebook.com/oscar">Facebook</a>';
 	$footer_output .='</div>';
 
 	return $content . $footer_output;
